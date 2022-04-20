@@ -10,7 +10,7 @@ data class HeroModel(
     val power: Int,
     val month: String,
     val day: String,
-    val family: String,
+    val family: List<String>,
     val abilities: List<String>,
     val natureTypes: List<String>,
 )
